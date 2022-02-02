@@ -1,5 +1,5 @@
 import { Form, Input, Button, Checkbox } from "antd"
-import style from './style.module.css'
+import style from './style.module.less'
 
 export default function Login() {
   const onFinish = (values: any) => {
@@ -15,10 +15,10 @@ export default function Login() {
       <Form
         name="basic"
         labelCol={{
-          span: 8
+          span: 6
         }}
         wrapperCol={{
-          span: 16
+          span: 10
         }}
         initialValues={{
           remember: true
